@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanusi Opeyemi Sanusi — Data Analyst</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+.skills-section { padding: 40px; }
+.skills-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.skill-card {
+background:rgb(235, 247, 243);
+border: 1px solidrgb(220, 231, 227);
+padding: 20px;
+border-radius: 12px;
+text-align: center;
+color: white;
+}
+.skill-card img {
+width: 60px;
+height: 60px0px;
+object-fit: contain;
+margin-bottom: 10px;
+}
+</style>
+<style>
+.projects-section { padding: 40px; }
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.project-card {
+background:rgb(235, 247, 243);
+border: 1px solidrgb(220, 231, 227);
+padding: 20px;
+border-radius: 12px;
+text-align: center;
+color: DARK GREEN;
+}
+
+.project-card img {
+width: 60px;
+height: 60px0px;
+object-fit: contain;
+margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+.projects-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+.projects-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/images/profile.jpg" alt="Sanusi Opeyemi Sanusi" class="profile-pic">
+      <h1>Hi, I’m Sanusi Opeyemi Sanusi</h1>
+      <p>Data Analyst | SQL • Power BI • Tableau • Excel • Microsoft Dynamics NAV</p>
+      <div class="hero-buttons">
+        <a href="projects.html" class="btn">View Projects</a>
+        <a href="resume.html" class="btn btn-outline">Download CV</a>
+      </div>
+    </section>
+
+    <!-- CORE SKILLS PREVIEW ON HOME -->
+<section id="skills" class="skills-section">
+<h2>Core Skills</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<img src="images/python.png" alt="Python" />
+<h3>Python</h3>
+<p>Data cleaning, automation, visualisation and analytics scripting.</p>
+</div>
+<div class="skill-card">
+<img src="images/sql.png" alt="SQL" />
+<h3>SQL</h3>
+<p>Efficient querying, modeling and database reporting.</p>
+</div>
+<div class="skill-card">
+<img src="images/powerbi.png" alt="Power BI" />
+<h3>Power BI</h3>
+<p>Interactive dashboards, DAX modelling and business intelligence.</p>
+</div>
+<div class="skill-card">
+<img src="images/tableau.png" alt="Tableau" />
+<h3>Tableau</h3>
+<p>Advanced visual analytics and enterprise insights.</p>
+</div>
+<div class="skill-card">
+<img src="images/excel.png" alt="Excel" />
+<h3>Excel</h3>
+<p>Data cleaning, pivot tables and financial modelling.</p>
+</div>
+<div class="skill-card">
+<img src="images/dynamics.png" alt="Dynamics NAV" />
+<h3>Dynamics NAV</h3>
+<p>ERP reporting, inventory, costing and analytics operations.</p>
+</div>
+</div>
+</section>
+
+
+    <!-- PROJECTS PREVIEW ON HOME -->
+<section id="projects" class="projects-section">
+<h2>Featured Projects</h2>
+<div class="projects-grid">
+<div class="project-card">
+<img src="images/dashboard.png" alt="Sales Dashboard" />
+<h3>Sales Dashboard</h3>
+<p>Power BI dashboard analyzing sales, yield, and contribution margin.</p>
+</div>
+<div class="project-card">
+<img src="images/sql_project.png" alt="SQL Automation" />
+<h3>SQL Automation</h3>
+<p>Automated inventory and data extraction scripts using SQL.</p>
+</div>
+<div class="project-card">
+<img src="images/excel_model.png" alt="Excel Model" />
+<h3>Excel Model</h3>
+<p>Dynamic Excel model for financial analysis and forecasting.</p>
+</div>
+<div class="project-card">
+<img src="images/python_script.png" alt="Python Script" />
+<h3>Python Script</h3>
+<p>Pandas-based Python tool for data cleaning and analytics automation.</p>
+</div>
+<div class="project-card">
+<img src="images/tableau_kpi.png" alt="Tableau KPI" />
+<h3>Tableau KPI</h3>
+<p>Interactive KPI dashboards for tracking key business metrics.</p>
+</div>
+<div class="project-card">
+<img src="images/nav_erp.png" alt="ERP Analytics" />
+<h3>ERP Analytics</h3>
+<p>Customized reporting templates integrated with Dynamics NAV ERP.</p>
+</div>
+</div>
+</section>
+
+
+  </main>
+
+   <!-- ==========================
+        FOOTER SECTION
+=========================== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h2>Sanusi Opeyemi Sanusi</h2>
+      <p>Data Analyst | Power BI • SQL • Excel • Python</p>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Social Links -->
+    <div class="footer-social">
+      <a href="#"><img src="assets/icons/github.svg" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/sanusi-opeyemi-sanusi?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3B3d7rLilqTq6eReZYzx%2BNwA%3D%3D">
+  <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+</a>
+
+      <a href="sanusi881@outlook.com"><img src="assets/icons/email.svg" alt="Email"></a>
+      <a href="https://wa.me/2349135792190">
+  <img src="assets/icons/whatsapp.svg" alt="WhatsApp">
+</a>
+
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>© 2025 Sanusi Opeyemi Sanusi. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
